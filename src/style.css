@@ -152,8 +152,9 @@ input[type=submit] {
         overflow-y: scroll;
     }
     .nav {
-        width: 30%;
+        width: 20%;
         margin-top: 0.1px;
+        font-size: 10px;
     }
     .nav li {
         display: block;
