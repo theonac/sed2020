@@ -151,26 +151,57 @@ input[type=submit] {
     .main {
         overflow-y: scroll;
     }
-    .sed {
-        position: relative !important;
-        top: -500px !important;
-        left: 0 !important;
+    .nav {
+        width: 30%;
+        margin-top: 0.1px;
     }
-
+    .nav li {
+        display: block;
+    }
+    .donate {
+        display: block;
+        box-shadow: none;
+    }
+    .logo {
+        font-size: 1.5rem;
+        text-shadow: 1px 1px #d10e31,
+                 1.5px 1.5px #d10e31,
+                 2px 2px #d10e31,
+                 2.5px 2.5px #d10e31,
+                 3px 3px #d10e31,
+                 3.5px 3.5px #d10e31,
+                 4px 4px #d10e31,
+                 4.5px 4.5px #890920,
+                 5px 5px #890920,
+                 5.5px 5.5px #890920,
+                 6px 6px 7px rgba(0,0,0,0.5);
+    }
+    .sed {
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        max-height: 250px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 12px;
+    }
     .content {
-        max-width: 200px;
+        max-width: 150px;
         margin-top: 6%;
     }
 
     input[type=text] {
-        display: block;
+        display: inline;
         margin-top: 10px;
-        width: 50%;
+        width: 48%;
     }
 
     input[type=submit] {
-        display: block;
+        display: inline;
         margin-top: 10px;
-        width: 50%;
+        width: 100%;
     }
 }
