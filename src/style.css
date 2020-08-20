@@ -146,3 +146,29 @@ input[type=submit] {
     color: #fff;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+    .sed {
+        position: absolute;
+        top: 35%;
+        left: 75%;
+        max-height: 500px;
+    }
+
+    .content {
+        max-width: 300px;
+        margin-top: 6%;
+    }
+
+    input[type=text] {
+        display: block;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    input[type=submit] {
+        display: block;
+        margin-top: 10px;
+        width: 50%;
+    }
+}
