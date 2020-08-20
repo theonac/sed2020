@@ -147,16 +147,16 @@ input[type=submit] {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) and (max-width: 480px) and (max-width: 600px) and (max-width: 768px) {
     .sed {
         position: absolute;
         top: 35%;
-        left: 75%;
+        left: 65%;
         max-height: 500px;
     }
 
     .content {
-        max-width: 300px;
+        max-width: 200px;
         margin-top: 6%;
     }
 
