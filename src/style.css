@@ -147,11 +147,14 @@ input[type=submit] {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 320px) and (max-width: 480px) and (max-width: 600px) and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
+    .main {
+        overflow-y: scroll;
+    }
     .sed {
-        position: absolute;
-        top: 35%;
-        left: 15%;
+        position: relative;
+        top: -500px;
+        left: 55%;
     }
 
     .content {
