@@ -7,13 +7,19 @@
   box-sizing: border-box;
 }
 
-.main {
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
+.main {
     /* background-image: url("../images/sed2.jpg"), linear-gradient(to right, #ea5455 35%, #ffaa71); */
-    background-image: url("../images/sed2.jpg"), repeating-linear-gradient(45deg, #323232, #000);
-    background-repeat: no-repeat, no-repeat;
-    background-position: right;
-    background-size: contain;
+    background-image:
+        linear-gradient(0deg, #3C3B6E, #3C3B6E),
+        repeating-linear-gradient(180deg, #B22234, #B22234 7.7%, white 7.7%, white 15.4%);
+    background-size: 40% 53.85%, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
     border-radius: 5px;
     font-family: 'Arvo', serif;
     height: 100vh;
@@ -26,9 +32,13 @@
 .nav {
     margin: 0;
     margin-top: -50px;
-    padding: 0;
+    padding: 5px;
     list-style: none;
     float: right;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #3C3B6E;
+    box-shadow: 5px 3px 3px #000;
 }
 
 li:last-child {
@@ -44,21 +54,21 @@ li:last-child {
 .logo {
     font-size: 4rem;
     padding-left: 10px;
-    color: #fff;
-    width: 50%;
+    color: #f2395a;
+    width: 20%;
 
     transform: skew(-5deg, -5deg) rotate(5deg);
     transform-origin: center center;
-    text-shadow: 1px 1px #d8d3cd,
-                 2px 2px #d8d3cd,
-                 3px 3px #d8d3cd,
-                 4px 4px #d8d3cd,
-                 5px 5px #d8d3cd,
-                 6px 6px #d8d3cd,
-                 7px 7px #d8d3cd,
-                 8px 8px #797a7e,
-                 9px 9px #797a7e,
-                 10px 10px #797a7e,
+    text-shadow: 1px 1px #d10e31,
+                 2px 2px #d10e31,
+                 3px 3px #d10e31,
+                 4px 4px #d10e31,
+                 5px 5px #d10e31,
+                 6px 6px #d10e31,
+                 7px 7px #d10e31,
+                 8px 8px #890920,
+                 9px 9px #890920,
+                 10px 10px #890920,
                  11px 11px 15px rgba(0,0,0,0.5);
 }
 
@@ -96,12 +106,19 @@ h1 {
 
 .tilt {
     font-style: italic;
-    color: #797a7e;
+    color: #f2395a;
 }
 
 .content {
     max-width: 600px;
-    margin-top: 10%;
+    margin-top: 3%;
+}
+
+.sed {
+    position: absolute;
+    top: 32%;
+    left: 84%;
+    max-height: 500px;
 }
 
 .bold {
@@ -125,21 +142,7 @@ input[type=submit] {
     border-radius: 5px;
     padding: 6px;
     font-family: 'Arvo', serif;
-    background-color: #797a7e;
+    background-color: #f2395a;
     color: #fff;
     font-weight: bold;
-}
-
-.pic {
-    height: 250px;
-    width: 125px;
-    border: 1px solid rgba(255,255,255,0.4);
-    box-shadow: 5px 3px 3px #207cca;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-}
-
-.banner {
-    position: absolute;
-    top: var(--xpos);
-    left: var(--ypos);
 }
