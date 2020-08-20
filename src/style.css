@@ -152,8 +152,8 @@ input[type=submit] {
         overflow-y: scroll;
     }
     .sed {
-        position: relative;
-        top: -500px;
+        position: relative !important;
+        top: -500px !important;
     }
 
     .content {
