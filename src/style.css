@@ -149,11 +149,12 @@ input[type=submit] {
 
 @media only screen and (max-width: 900px) {
     .main {
-        overflow-y: scroll;
+        overflow-x: hidden;
+        background-size: 50% 53.85%, 100% 100%;
     }
     .nav {
         width: 20%;
-        margin-top: 0.1px;
+        margin-top: -20px;
         font-size: 10px;
     }
     .nav li {
