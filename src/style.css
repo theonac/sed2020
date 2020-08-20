@@ -1,0 +1,145 @@
+:root {
+    --xpos: 150px;
+    --ypos: 250px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.main {
+
+    /* background-image: url("../images/sed2.jpg"), linear-gradient(to right, #ea5455 35%, #ffaa71); */
+    background-image: url("../images/sed2.jpg"), repeating-linear-gradient(45deg, #323232, #000);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right;
+    background-size: contain;
+    border-radius: 5px;
+    font-family: 'Arvo', serif;
+    height: 100vh;
+    width: 100%;
+    color: #ececec;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.nav {
+    margin: 0;
+    margin-top: -50px;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+li:last-child {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item {
+    display: inline;
+    padding: 10px 10px 10px 0px;
+}
+
+.logo {
+    font-size: 4rem;
+    padding-left: 10px;
+    color: #fff;
+    width: 50%;
+
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    transform-origin: center center;
+    text-shadow: 1px 1px #d8d3cd,
+                 2px 2px #d8d3cd,
+                 3px 3px #d8d3cd,
+                 4px 4px #d8d3cd,
+                 5px 5px #d8d3cd,
+                 6px 6px #d8d3cd,
+                 7px 7px #d8d3cd,
+                 8px 8px #797a7e,
+                 9px 9px #797a7e,
+                 10px 10px #797a7e,
+                 11px 11px 15px rgba(0,0,0,0.5);
+}
+
+.link a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    cursor: pointer;
+    color: lightgray;
+}
+
+.donate {
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 5px 3px 3px #000;
+}
+
+.donate a:link, .donate a:visited {
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+}
+
+.donate a:hover {
+    color: pink;
+}
+
+h1 {
+    display: inline;
+    font-size: 4rem;
+}
+
+.tilt {
+    font-style: italic;
+    color: #797a7e;
+}
+
+.content {
+    max-width: 600px;
+    margin-top: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+input {
+    border-width: 0px;
+}
+
+input[type=text] {
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    padding: 6px;
+    font-family: 'Arvo', serif;
+    width: 150px;
+}
+
+input[type=submit] {
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    padding: 6px;
+    font-family: 'Arvo', serif;
+    background-color: #797a7e;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pic {
+    height: 250px;
+    width: 125px;
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 5px 3px 3px #207cca;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.banner {
+    position: absolute;
+    top: var(--xpos);
+    left: var(--ypos);
+}
