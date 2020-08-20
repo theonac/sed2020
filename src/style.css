@@ -165,7 +165,8 @@ input[type=submit] {
         box-shadow: none;
     }
     .logo {
-        font-size: 1.5rem;
+        margin-left: 15px;
+        font-size: 1.7rem;
         text-shadow: 1px 1px #d10e31,
                  1.5px 1.5px #d10e31,
                  2px 2px #d10e31,
@@ -206,5 +207,6 @@ input[type=submit] {
         display: inline;
         margin-top: 5px;
         width: 100%;
+        font-size: 10px;
     }
 }
