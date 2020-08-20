@@ -149,10 +149,9 @@ input[type=submit] {
 
 @media only screen and (max-width: 320px) and (max-width: 480px) and (max-width: 600px) and (max-width: 768px) {
     .sed {
-        position: absolute;
-        top: 35%;
-        left: 65%;
-        max-height: 500px;
+        position: absolute !important;
+        top: 35% !important;
+        left: 65% !important;
     }
 
     .content {
