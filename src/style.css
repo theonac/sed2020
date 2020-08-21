@@ -20,7 +20,7 @@ body {
         repeating-linear-gradient(180deg, #B22234, #B22234 7.7%, white 7.7%, white 15.4%);
     background-position: top left, right bottom, center center;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 40% 53.85%, auto 500px, 100% 100%;
+    background-size: 40% 53.85%, auto auto, 100% 100%;
     border-radius: 5px;
     font-family: 'Arvo', serif;
     height: 100vh;
@@ -151,7 +151,8 @@ input[type=submit] {
 @media only screen and (max-width: 900px) {
     .main {
         overflow-x: hidden;
-        background-size: 50% 53.85%, auto 250px, 100% 100%;
+        background-position: top left, left bottom, center center;
+        background-size: 50% 53.85%, auto 252px, 100% 100%; 
     }
     .nav {
         width: 20%;
